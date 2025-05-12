@@ -1,0 +1,143 @@
+﻿  wavefront_obj.cpp
+C:\Users\Andrey\Desktop\School\Graphics\3d\Obj Parser\wavefront_obj.cpp(89,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\Obj Parser\wavefront_obj.cpp(90,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\Obj Parser\wavefront_obj.cpp(91,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\Obj Parser\wavefront_obj.cpp(92,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AmbientLight.cpp
+  Camera.cpp
+  Color.cpp
+  Geometry.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'Geometry.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Geometry.cpp(40,75):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Geometry.cpp(40,9):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'MeshModel::loadOBJ'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(793,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(949,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Light.cpp
+  LightManager.cpp
+  Main.cpp
+  Material.cpp
+  Math.cpp
+  Renderer.cpp
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Renderer.cpp(16,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Scene.cpp
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,62): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,62): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,62): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,62): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,62): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,40): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,40): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,40): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(77,40): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,81): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,81): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,81): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,81): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,81): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,59): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,59): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,59): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,59): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(76,59): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,62): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,62): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,62): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,62): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,62): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,40): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,40): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,40): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(79,40): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,81): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,81): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,81): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,81): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,81): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,59): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,59): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,59): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,59): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(78,59): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,62): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,62): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,62): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,62): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,62): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,40): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,40): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,40): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(81,40): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,81): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,81): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,81): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,81): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,81): warning C4244:         ]
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,59): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,59): warning C4244:         with
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,59): warning C4244:         [
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,59): warning C4244:             T=float
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(80,59): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244: 'initializing': conversion from 'float' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+  (compiling source file 'Scene.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(123,35):
+          see reference to function template instantiation 'std::pair<int,int>::pair<float&,float&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=float &,
+              _Other2=float &
+          ]
+              C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Scene.cpp(123,34):
+              see the first reference to 'std::pair<int,int>::pair' in 'Scene::drawNormals'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244: 'initializing': conversion from 'float' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         ]
+  (compiling source file 'Scene.cpp')
+  
+  Transformations.cpp
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Transformations.cpp(28,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Transformations.cpp(39,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andrey\Desktop\School\Graphics\3d\CG\Transformations.cpp(50,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Utils.cpp
+  Generating Code...
+  LINK : C:\Users\Andrey\Desktop\School\Graphics\3d\x64\Debug\CG.exe not found or not built by the last incremental link; performing full link
+  CG.vcxproj -> C:\Users\Andrey\Desktop\School\Graphics\3d\x64\Debug\CG.exe
