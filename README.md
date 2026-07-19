@@ -53,6 +53,26 @@ freeglut/, Glew/    OpenGL windowing/extension libraries
 glm/                Math library
 ```
 
-## Building
+## Running (no build required)
+
+A precompiled build is included in the repository, so you don't need Visual Studio to try it out:
+
+1. Clone the repo.
+2. Go to `x64\Release\` and launch **`CG.exe`** (the required DLLs — `AntTweakBar64.dll` and `glew32.dll` — are in the same folder).
+3. In the control panel, click **Load OBJ File...** and pick a model from the [`obj files/`](obj%20files/) folder.
+
+### Using the app
+
+Everything is controlled from the on-screen panel:
+
+- **Shading** — switch between wireframe, flat, Gouraud, and Phong shading modes
+- **Mouse Rotation** — enable to rotate the model with the mouse
+- **Lights** — two configurable light sources (directional or point, with color/position/direction) plus ambient light color
+- **Material** — ambient / diffuse / specular / shininess properties
+- **Transformations** — translate, rotate, and scale in model or world context
+- **Z-Buffer Mode** — choose between the three depth-interpolation modes
+- **Extras** — toggle vertex normals, bounding box, and world/object coordinate axes; adjust the perspective projection (FoV, near/far planes)
+
+## Building from source
 
 Open `CG.sln` in Visual Studio and build for **x64**. All dependencies (freeglut, GLEW, glm, AntTweakBar) are bundled with the project.
